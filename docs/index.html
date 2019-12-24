@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JAVA</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+</head>
+
+<body>
+  <div id="app">加载中</div>
+  <script>
+    window.$docsify = {
+      name: 'BIG TREE',
+      //设置GITHUB图标、且设置侧边栏标题链接
+      repo: 'https://github.com/Q-Angelo/Nodejs-Roadmap',
+      //设置主页
+      coverpage: true,
+      //设置导航
+      loadNavbar: true,
+      //设置侧边栏
+      loadSidebar: true,
+      //设置目录的层级
+      subMaxLevel: 2,
+      //分页
+      pagination: {
+        previousText: '上一篇',
+        nextText: '下一篇',
+        crossChapter: true
+      },
+      //设置搜索插件
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 搜索 ',
+        noData: '😞 找不到结果! ',
+        // 搜索标题的最大程级
+        depth: 6
+      },
+      //配置页面内的导航
+      'page-toc': {
+        tocMaxLevel: 3,
+        target: 'h1, h2, h3'
+      },
+    }
+  </script>
+
+
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <!-- 搜索 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <!-- 分页 -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <script src="//unpkg.com/docsify-page-toc/dist/docsify-page-toc.js"></script>
+</body>
+
+</html>
