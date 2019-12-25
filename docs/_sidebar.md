@@ -12,3 +12,4 @@
 * 工具
   * [docsify的基础使用](tools/docsify.md)
   * [markdown的基本语法](tools/markdown.md)
+  * [git场景式命令大全](tools/git.md)
