@@ -1,5 +1,5 @@
 * Introduction
-  * [简介](../README.md)
+  * [简介](README.md)
 
 * JAVA基础
   * [set详解](java-base/set.md)
