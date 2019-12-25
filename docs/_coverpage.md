@@ -1,4 +1,4 @@
-<img width="180px" style="border-radius: 50%" bor src="https://nodejsred.oss-cn-shanghai.aliyuncs.com/nodejs_roadmap-logo.jpeg?x-oss-process=style/may">
+<img width="200px" style="border-radius: 80px" bor src="https://note.youdao.com/yws/public/resource/7f5bc7c68877511de7441b2db224ad2f/xmlnote/BE4C6D7EBFFC4C09A90B313C063506A2/8310">
 
 # BIT-TREE 技术积累
 
