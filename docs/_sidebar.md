@@ -1,7 +1,8 @@
 * Introduction
   * [简介](README.md)
 * JAVA基础
-  * [set详解](java-base/set.md)
+  * [set简单使用](java-base/set.md)
+  * [map简单使用](java-base/map.md)
 * JAVA设计模式
   * [单例模式](java-design/singleton.md) 
 * JAVA高并发
