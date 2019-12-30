@@ -1,14 +1,12 @@
 * Introduction
   * [简介](README.md)
-* JAVA基础
+* JAVA
   * [set简单使用](java-base/set.md)
   * [map简单使用](java-base/map.md)
-* JAVA设计模式
-  * [单例模式](java-design/singleton.md) 
-* JAVA高并发
-  * [concurrentHashmap详解](java-concurrent/Concurrent-hashmap.md)
-* VUE
-* NODEJS
+  * [CopyOnWriteArrayList详解](java-base/CopyOnWriteArrayList.md)
+* RocketMQ
+  * [consumer详解-这一篇就够了](rocketmq/consumer.md)
+  * [Producer&NameServer](rocketmq/producer.md)
 * linux
   * [vi编辑器](linux/vi.md)
 * 工具
