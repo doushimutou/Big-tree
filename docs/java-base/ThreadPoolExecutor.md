@@ -152,16 +152,19 @@ ThreadPoolExecutor把线程池状态和线程池容量打包成一个int型变�
 
 ArrayBlockingQueue:
 
-是一个有边界的阻塞队列，它的内部实现是一个数组。它的容量在初始化时就确定不变。
- LinkedBlockingQueue：
+  - 是一个有边界的阻塞队列，它的内部实现是一个数组。它的容量在初始化时就确定不变。
 
-阻塞队列大小的配置是可选的，其内部实现是一个链表。
- PriorityBlockingQueue：
+LinkedBlockingQueue：
 
-是一个没有边界的队列，所有插入到PriorityBlockingQueue的对象必须实现java.lang.Comparable接口，队列优先级的排序就是按照我们对这个接口的实现来定义的。
- SynchronousQueue：
+  - 阻塞队列大小的配置是可选的，其内部实现是一个链表。
 
-队列内部仅允许容纳一个元素。当一个线程插入一个元素后会被阻塞，除非这个元素被另一个线程消费。
+PriorityBlockingQueue：
+
+  - 是一个没有边界的队列，所有插入到PriorityBlockingQueue的对象必须实现java.lang.Comparable接口，队列优先级的排序就是按照我们对这个接口的实现来定义的。
+
+SynchronousQueue：
+
+  - 队列内部仅允许容纳一个元素。当一个线程插入一个元素后会被阻塞，除非这个元素被另一个线程消费。
 
 
 
