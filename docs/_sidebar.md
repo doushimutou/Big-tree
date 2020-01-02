@@ -14,4 +14,5 @@
   * [docsify的基础使用](tools/docsify.md)
   * [markdown的基本语法](tools/markdown.md)
   * [git场景式命令大全](tools/git.md)
-
+* 实践
+  * [基础管理系统](practice/permission.md)
