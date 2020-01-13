@@ -5,6 +5,7 @@
   * [map简单使用](java-base/map.md)
   * [CopyOnWriteArrayList详解](java-base/CopyOnWriteArrayList.md)
   * [ThreadPoolExecutor线程池](java-base/ThreadPoolExecutor.md)
+  * [dubbo注册中心详解](java-base/dubbo-zookeeper.md)
 * RocketMQ
   * [consumer详解-这一篇就够了](rocketmq/consumer.md)
   * [Producer&NameServer](rocketmq/producer.md)
